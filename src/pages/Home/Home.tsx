@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { DataGrid, GridRenderCellParams } from "@mui/x-data-grid";
 import { People } from "@/data/people";
-import { Person } from "@/models";
+// import { Person } from "@/models";
 import { Checkbox } from "@mui/material";
 export interface HomeInterface {}
 
 const Home: React.FC<HomeInterface> = () => {
-  const [selectedPeople, setSelectedPeople] = useState<Person[]>([]);
+  // const [selectedPeople, setSelectedPeople] = useState<Person[]>([]);
 
   const pageSize = 5;
   const columns = [
