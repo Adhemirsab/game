@@ -10,15 +10,15 @@ const Home: React.FC<HomeInterface> = () => {
 
   const pageSize = 5;
   const columns = [
-    {
-      field: "action",
-      headerName: "",
+    // {
+    //   field: "action",
+    //   headerName: "",
 
-      minWidth: 50,
-      renderCell: (params: GridRenderCellParams) => (
-        <>{<Checkbox size="small" />}</>
-      ),
-    },
+    //   minWidth: 50,
+    //   renderCell: (params: GridRenderCellParams) => (
+    //     <>{<Checkbox size="small" />}</>
+    //   ),
+    // },
     {
       field: "name",
       headerName: "Name",
