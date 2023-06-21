@@ -2,7 +2,7 @@
 import { DataGrid, GridRenderCellParams } from "@mui/x-data-grid";
 import { People } from "@/data/people";
 // import { Person } from "@/models";
-import { Checkbox } from "@mui/material";
+// import { Checkbox } from "@mui/material";
 export interface HomeInterface {}
 
 const Home: React.FC<HomeInterface> = () => {
