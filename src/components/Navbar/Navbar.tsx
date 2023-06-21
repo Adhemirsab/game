@@ -10,6 +10,12 @@ const Navbar: React.FC<NavbarInterface> = () => {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           React Aplication Test
         </Typography>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          About
+        </Typography>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          Contact
+        </Typography>
       </Toolbar>
     </AppBar>
   );
