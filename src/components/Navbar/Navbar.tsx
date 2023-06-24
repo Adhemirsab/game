@@ -16,6 +16,9 @@ const Navbar: React.FC<NavbarInterface> = () => {
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Contact
         </Typography>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          Home
+        </Typography>
       </Toolbar>
     </AppBar>
   );
